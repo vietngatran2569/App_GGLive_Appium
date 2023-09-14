@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83ed1268-8918-4aac-b17a-008d26f79b5f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2S5fcGOlTWySgehEnT63Yrru5dR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/src/test/java/usingFramework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trang\Documents\NgaNgokNgek\GGLive_Appium\src\test\java\usingFramework" />
+      <recent name="C:\Users\trang\Documents\NgaNgokNgek\GGLive_Appium\src\test\java\resource" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BaseTest">
+    <configuration name="BaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.notUsingFramework.BaseTest" />
+      <module name="GGLive_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.notUsingFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GGLive_Appium" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eComerceTest.AddToCartRedirectCartForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GGLive_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usingFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usingFramework" />
+      <option name="MAIN_CLASS_NAME" value="usingFramework.eComerceTest" />
+      <option name="METHOD_NAME" value="AddToCartRedirectCartForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eComerceTest.CartFormAndVerifyTotalAmount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GGLive_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usingFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usingFramework" />
+      <option name="MAIN_CLASS_NAME" value="usingFramework.eComerceTest" />
+      <option name="METHOD_NAME" value="CartFormAndVerifyTotalAmount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eComerceTest.FillFormTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GGLive_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usingFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usingFramework" />
+      <option name="MAIN_CLASS_NAME" value="usingFramework.eComerceTest" />
+      <option name="METHOD_NAME" value="FillFormTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BaseTest" />
+      <item itemvalue="TestNG.C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/testng.xml" />
+      <item itemvalue="TestNG.eComerceTest.AddToCartRedirectCartForm" />
+      <item itemvalue="TestNG.eComerceTest.CartFormAndVerifyTotalAmount" />
+      <item itemvalue="TestNG.eComerceTest.FillFormTest (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BaseTest" />
+        <item itemvalue="TestNG.C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/testng.xml" />
+        <item itemvalue="TestNG.eComerceTest.CartFormAndVerifyTotalAmount" />
+        <item itemvalue="TestNG.eComerceTest.AddToCartRedirectCartForm" />
+        <item itemvalue="TestNG.eComerceTest.FillFormTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="Selenium" />
+    <option name="lastLanguageId" value="JAVA" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83ed1268-8918-4aac-b17a-008d26f79b5f" name="Changes" comment="" />
+      <created>1688441443095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688441443095</updated>
+      <workItem from="1688441444289" duration="2829000" />
+      <workItem from="1688445077271" duration="907000" />
+      <workItem from="1689320087716" duration="15061000" />
+      <workItem from="1689573279708" duration="10871000" />
+      <workItem from="1689646817751" duration="7336000" />
+      <workItem from="1689663309496" duration="18811000" />
+      <workItem from="1689751783347" duration="1379000" />
+      <workItem from="1689753615139" duration="31037000" />
+      <workItem from="1689934255741" duration="11148000" />
+      <workItem from="1690274985122" duration="611000" />
+      <workItem from="1690277383967" duration="11494000" />
+      <workItem from="1690770307096" duration="3391000" />
+      <workItem from="1690856835156" duration="7248000" />
+      <workItem from="1694587329752" duration="5125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
