@@ -4,9 +4,9 @@ import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObject.android.CartPage;
-import pageObject.android.FormPage;
-import pageObject.android.ProductCatalouge;
+import GeneralStore_PageObject.android.CartPage;
+import GeneralStore_PageObject.android.FormPage;
+import GeneralStore_PageObject.android.ProductCatalouge;
 
 
 @Test

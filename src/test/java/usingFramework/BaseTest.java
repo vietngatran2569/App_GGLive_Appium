@@ -33,17 +33,17 @@ public class BaseTest {
         service.start();
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel6ProAPI30");
-        options.setApp("C:\\Users\\trang\\Documents\\NgaNgokNgek\\AppiumProject\\src\\test\\java\\resource\\General-Store.apk");
+        options.setApp("C:\\Users\\trang\\Documents\\NgaNgokNgek\\AppiumProject\\src\\test\\java\\resource\\app-staging-release.apk");
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723"), options);
     }
 
-//    @AfterClass
-//    public void tearDown() {
-//        //actual automation
-//        //stop server
-//        driver.quit();
-//        service.stop();
-//    }
+    @AfterClass
+    public void tearDown() {
+        //actual automation
+        //stop server
+        driver.quit();
+        service.stop();
+    }
 
     @BeforeMethod
     public void watingHandleElement(){

@@ -38,66 +38,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/src/test/java/usingFramework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/src/test/java/usingFramework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\trang\Documents\NgaNgokNgek\GGLive_Appium\src\test\java\usingFramework" />
       <recent name="C:\Users\trang\Documents\NgaNgokNgek\GGLive_Appium\src\test\java\resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BaseTest">
-    <configuration name="BaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.notUsingFramework.BaseTest" />
-      <module name="GGLive_Appium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.notUsingFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GGLive_Appium" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="eComerceTest.AddToCartRedirectCartForm" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AuthenTest.register_wrong_otp">
+    <configuration name="AuthenTest.fill_happycase_login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GGLive_Appium" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +73,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="usingFramework" />
-      <option name="MAIN_CLASS_NAME" value="usingFramework.eComerceTest" />
-      <option name="METHOD_NAME" value="AddToCartRedirectCartForm" />
+      <option name="MAIN_CLASS_NAME" value="usingFramework.AuthenTest" />
+      <option name="METHOD_NAME" value="fill_happycase_login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eComerceTest.CartFormAndVerifyTotalAmount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthenTest.login_phone_invalid" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GGLive_Appium" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +91,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="usingFramework" />
-      <option name="MAIN_CLASS_NAME" value="usingFramework.eComerceTest" />
-      <option name="METHOD_NAME" value="CartFormAndVerifyTotalAmount" />
+      <option name="MAIN_CLASS_NAME" value="usingFramework.AuthenTest" />
+      <option name="METHOD_NAME" value="login_phone_invalid" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eComerceTest.FillFormTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthenTest.login_phone_not_register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GGLive_Appium" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +109,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="usingFramework" />
-      <option name="MAIN_CLASS_NAME" value="usingFramework.eComerceTest" />
-      <option name="METHOD_NAME" value="FillFormTest" />
+      <option name="MAIN_CLASS_NAME" value="usingFramework.AuthenTest" />
+      <option name="METHOD_NAME" value="login_phone_not_register" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenTest.register_wrong_otp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GGLive_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usingFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usingFramework" />
+      <option name="MAIN_CLASS_NAME" value="usingFramework.AuthenTest" />
+      <option name="METHOD_NAME" value="register_wrong_otp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenTest.verifyText_LoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GGLive_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usingFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usingFramework" />
+      <option name="MAIN_CLASS_NAME" value="usingFramework.AuthenTest" />
+      <option name="METHOD_NAME" value="verifyText_LoginPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BaseTest" />
-      <item itemvalue="TestNG.C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/testng.xml" />
-      <item itemvalue="TestNG.eComerceTest.AddToCartRedirectCartForm" />
-      <item itemvalue="TestNG.eComerceTest.CartFormAndVerifyTotalAmount" />
-      <item itemvalue="TestNG.eComerceTest.FillFormTest (1)" />
+      <item itemvalue="TestNG.AuthenTest.login_phone_invalid" />
+      <item itemvalue="TestNG.AuthenTest.login_phone_not_register" />
+      <item itemvalue="TestNG.AuthenTest.register_wrong_otp" />
+      <item itemvalue="TestNG.AuthenTest.fill_happycase_login" />
+      <item itemvalue="TestNG.AuthenTest.verifyText_LoginPage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BaseTest" />
-        <item itemvalue="TestNG.C:/Users/trang/Documents/NgaNgokNgek/GGLive_Appium/testng.xml" />
-        <item itemvalue="TestNG.eComerceTest.CartFormAndVerifyTotalAmount" />
-        <item itemvalue="TestNG.eComerceTest.AddToCartRedirectCartForm" />
-        <item itemvalue="TestNG.eComerceTest.FillFormTest (1)" />
+        <item itemvalue="TestNG.AuthenTest.register_wrong_otp" />
+        <item itemvalue="TestNG.AuthenTest.login_phone_not_register" />
+        <item itemvalue="TestNG.AuthenTest.login_phone_invalid" />
+        <item itemvalue="TestNG.AuthenTest.verifyText_LoginPage" />
+        <item itemvalue="TestNG.AuthenTest.fill_happycase_login" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +196,9 @@
       <workItem from="1690277383967" duration="11494000" />
       <workItem from="1690770307096" duration="3391000" />
       <workItem from="1690856835156" duration="7248000" />
-      <workItem from="1694587329752" duration="5125000" />
+      <workItem from="1694587329752" duration="15682000" />
+      <workItem from="1694677927713" duration="10464000" />
+      <workItem from="1694747799152" duration="17396000" />
     </task>
     <servers />
   </component>

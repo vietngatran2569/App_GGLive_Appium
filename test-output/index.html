@@ -152,43 +152,57 @@
                   <a name="AddToCartRedirectCartForm">
                   </a> <!-- AddToCartRedirectCartForm -->
                   <span class="method-name">AddToCartRedirectCartForm</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
-	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
-	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$EDOlQcWn.sendKeys(Unknown Source)
-	at pageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
-	at usingFramework.eComerceTest.AddToCartRedirectCartForm(eComerceTest.java:29)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2abc224d (tried for 1 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
-	... 29 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: RemoteWebDriver
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 31 more
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by
+                      this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
+                      at
+                      io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
+                      at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
+                      at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$EDOlQcWn.sendKeys(Unknown Source)
+                      at GeneralStore_PageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
+                      at usingFramework.eComerceTest.AddToCartRedirectCartForm(eComerceTest.java:29)
+                      at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+                      at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+                      Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2abc224d (tried for 1
+                      second(s) with 500 milliseconds interval)
+                      at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+                      at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+                      at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
+                      ... 29 more
+                      Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using
+                      By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                      For documentation on this error, please visit:
+                      https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                      Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+                      System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+                      java.version: &apos;1.8.0_181&apos;
+                      Driver info: driver.version: RemoteWebDriver
+                      at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+                      at
+                      org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+                      at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+                      at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+                      at
+                      org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+                      at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
+                      at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+                      ... 31 more
+                      ... Removed 22 stack frames
+                  </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -196,43 +210,57 @@ Driver info: driver.version: RemoteWebDriver
                   <a name="CartFormAndVerifyTotalAmount">
                   </a> <!-- CartFormAndVerifyTotalAmount -->
                   <span class="method-name">CartFormAndVerifyTotalAmount</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
-	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
-	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$INTe0D95.sendKeys(Unknown Source)
-	at pageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
-	at usingFramework.eComerceTest.CartFormAndVerifyTotalAmount(eComerceTest.java:43)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6d4c273c (tried for 1 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
-	... 29 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: RemoteWebDriver
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 31 more
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by
+                      this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
+                      at
+                      io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
+                      at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
+                      at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$INTe0D95.sendKeys(Unknown Source)
+                      at GeneralStore_PageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
+                      at usingFramework.eComerceTest.CartFormAndVerifyTotalAmount(eComerceTest.java:43)
+                      at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+                      at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+                      Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6d4c273c (tried for 1
+                      second(s) with 500 milliseconds interval)
+                      at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+                      at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+                      at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
+                      ... 29 more
+                      Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using
+                      By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                      For documentation on this error, please visit:
+                      https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                      Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+                      System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+                      java.version: &apos;1.8.0_181&apos;
+                      Driver info: driver.version: RemoteWebDriver
+                      at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+                      at
+                      org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+                      at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+                      at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+                      at
+                      org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+                      at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
+                      at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+                      ... 31 more
+                      ... Removed 22 stack frames
+                  </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -240,43 +268,57 @@ Driver info: driver.version: RemoteWebDriver
                   <a name="FillFormTest">
                   </a> <!-- FillFormTest -->
                   <span class="method-name">FillFormTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
-	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
-	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$bwHvf6qz.sendKeys(Unknown Source)
-	at pageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
-	at usingFramework.eComerceTest.FillFormTest(eComerceTest.java:19)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@409986fe (tried for 1 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
-	... 29 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: RemoteWebDriver
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 31 more
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by
+                      this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
+                      at
+                      io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
+                      at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
+                      at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$bwHvf6qz.sendKeys(Unknown Source)
+                      at GeneralStore_PageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
+                      at usingFramework.eComerceTest.FillFormTest(eComerceTest.java:19)
+                      at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+                      at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+                      Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@409986fe (tried for 1
+                      second(s) with 500 milliseconds interval)
+                      at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+                      at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+                      at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
+                      ... 29 more
+                      Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using
+                      By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                      For documentation on this error, please visit:
+                      https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                      Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+                      System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+                      java.version: &apos;1.8.0_181&apos;
+                      Driver info: driver.version: RemoteWebDriver
+                      at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+                      at
+                      org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+                      at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+                      at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+                      at
+                      org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+                      at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+                      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
+                      at
+                      io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
+                      at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+                      ... 31 more
+                      ... Removed 22 stack frames
+                  </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->

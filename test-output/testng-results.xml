@@ -29,12 +29,12 @@
               <![CDATA[Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
 at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
 at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
 at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
 at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$EDOlQcWn.sendKeys(Unknown Source)
-at pageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
+at GeneralStore_PageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
 at usingFramework.eComerceTest.AddToCartRedirectCartForm(eComerceTest.java:29)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -102,12 +102,12 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
               <![CDATA[Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
 at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
 at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
 at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
 at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$INTe0D95.sendKeys(Unknown Source)
-at pageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
+at GeneralStore_PageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
 at usingFramework.eComerceTest.CartFormAndVerifyTotalAmount(eComerceTest.java:43)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -171,12 +171,12 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
               <![CDATA[Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+                <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
 at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
 at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54)
 at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75)
 at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$bwHvf6qz.sendKeys(Unknown Source)
-at pageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
+at GeneralStore_PageObject.android.FormPage.sendkeyNameField(FormPage.java:48)
 at usingFramework.eComerceTest.FillFormTest(eComerceTest.java:19)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

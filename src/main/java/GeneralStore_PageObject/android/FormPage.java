@@ -1,4 +1,4 @@
-package pageObject.android;
+package GeneralStore_PageObject.android;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -63,6 +63,8 @@ public class FormPage extends AndroidAction {
         btnLetsShop.click();
         return new ProductCatalouge(driver);
     }
+
+
 
 
 
