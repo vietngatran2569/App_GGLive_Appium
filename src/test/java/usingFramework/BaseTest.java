@@ -13,6 +13,7 @@ import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
@@ -26,7 +27,7 @@ public class BaseTest {
     public AndroidDriver driver;
     public AppiumDriverLocalService service;
 
-    @BeforeClass
+    @BeforeMethod
     public void configAppium() throws MalformedURLException {
         service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\trang\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
                 .withIPAddress("0.0.0.0").usingPort(4723).build();
@@ -37,13 +38,13 @@ public class BaseTest {
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723"), options);
     }
 
-    @AfterClass
-    public void tearDown() {
-        //actual automation
-        //stop server
-        driver.quit();
-        service.stop();
-    }
+//    @AfterClass
+//    public void tearDown() {
+//        //actual automation
+//        //stop server
+//        driver.quit();
+//        service.stop();
+//    }
 
     @BeforeMethod
     public void watingHandleElement(){
@@ -53,6 +54,12 @@ public class BaseTest {
                 .withTimeout(Duration.ofSeconds(50))
                 .pollingEvery(Duration.ofSeconds(10))
                 .ignoring(NoSuchElementException.class);
+    }
+    @AfterMethod
+    public void tearDown() {
+        if (driver != null) {
+            driver.closeApp(); // Đóng ứng dụng
+        }
     }
     public Double getFomatterAmount(String amount){
         Double price = Double.parseDouble(amount.substring(1));
